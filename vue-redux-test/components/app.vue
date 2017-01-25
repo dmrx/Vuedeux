@@ -114,7 +114,7 @@ export default {
       var text = e.target.value
       if (text.trim()) {
         // VUEX: adding todos
-        this.$store.commit('addTodo', { text })
+        // this.$store.commit('addTodo', { text })
        
        // REDUX : adding todos
        // the arguments resolves to a function definition that dispatches two events
